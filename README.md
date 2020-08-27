@@ -1,7 +1,7 @@
 # Html2Pdf
 Android library to convert Html from strings into Pdf files.
 
-# This library is not mainteined anymore
+# This library is not maintained anymore
 Feel free to fork and use it.
 
 ## Download
@@ -9,11 +9,11 @@ Feel free to fork and use it.
 ```gradle
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+        maven { url "https://www.jitpack.io" }
     }
 }
 
-implementation 'com.github.LucasFsc:Html2Pdf:0.2-beta'
+implementation 'com.github.spider-abb:Html2Pdf:1.0'
 
 ```
 
