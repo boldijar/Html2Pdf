@@ -55,4 +55,4 @@ class MainActivity : AppCompatActivity(), Html2Pdf.OnCompleteConversion /* Callb
 ```
 
 ## License
-[MIT](https://github.com/LucasFsc/Html2Pdf/blob/master/LICENSE)
+[MIT](https://github.com/spider-abb/Html2Pdf/blob/master/LICENSE)
