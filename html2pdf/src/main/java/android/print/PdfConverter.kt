@@ -112,6 +112,12 @@ internal class PdfConverter private constructor() : Runnable {
         private const val TAG = "PdfConverter"
         private var sInstance: PdfConverter? = null
 
+        fun createWithPrintAttributes(attrs: PrintAttributes): PdfConverter {
+            val instance = PdfConverter()
+            instance.pdfPrintAttrs = attrs
+            return instance
+        }
+
         val instance: PdfConverter
             @Synchronized get() {
                 if (sInstance == null)
